@@ -1,4 +1,4 @@
-package spring.job.service;
+package spring.job.step;
 
 import org.springframework.batch.core.StepContribution;
 import org.springframework.batch.core.scope.context.ChunkContext;

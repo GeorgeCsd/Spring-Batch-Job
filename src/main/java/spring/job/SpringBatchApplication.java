@@ -1,4 +1,4 @@
-package spring.job.app;
+package spring.job;
 
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.boot.SpringApplication;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableBatchProcessing
-@ComponentScan({"spring.job.config", "spring.job.service"})
+@ComponentScan({"spring.job.scheduled", "spring.job.step"})
 public class SpringBatchApplication {
 
 	public static void main(String[] args) {
