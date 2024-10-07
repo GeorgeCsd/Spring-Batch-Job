@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>sring.job</groupId>
 	<artifactId>Spring-Batch-Job</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>Spring-Batch-Job</name>
 	<description>Spring Batch Job Application</description>
 	<properties>
